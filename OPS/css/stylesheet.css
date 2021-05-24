@@ -1,0 +1,12 @@
+body {
+    font-size: 1em;
+    line-height: 1.33em;
+    font-family: 'Stix', serif;
+    font-variant-numeric: oldstyle-nums;
+}
+    
+p {
+    padding: 0;
+    margin: 0;
+    text-align: justify;
+}
