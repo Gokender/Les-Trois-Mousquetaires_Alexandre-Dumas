@@ -1,3 +1,6 @@
+@charset "utf-8";
+@namespace epub "http://www.idpf.org/2007/ops";
+
 body {
     font-size: 1em;
     line-height: 1.33em;
@@ -9,4 +12,10 @@ p {
     padding: 0;
     margin: 0;
     text-align: justify;
+}
+
+a[epub|type~="noteref"] {
+     vertical-align: super;
+     line-height: normal;
+     font-size: smaller;
 }
